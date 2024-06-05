@@ -23,14 +23,14 @@ int main() {
     insertar(&inicio, &Ultimo, 2);
     insertar(&inicio, &Ultimo, 3);
 
-    printf("Cola después de insertar 3 elementos:\n");
+    printf("Cola despues de insertar 3 elementos:\n");
     imprimir(inicio);
     printf("\n");
 
     int valor = dequeue(&inicio, &Ultimo);
     printf("Valor eliminado del frente: %d\n", valor);
 
-    printf("Cola después de eliminar un elemento:\n");
+    printf("Cola despues de eliminar un elemento:\n");
     imprimir(inicio);
     printf("\n");
 
